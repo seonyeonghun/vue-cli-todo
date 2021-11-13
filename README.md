@@ -2,7 +2,9 @@
 
 ## Project setup
 ```
-npm install
+1. node.js LTS install
+2. vue install -g @vue/cli
+3. vue create todo-app
 ```
 
 ### Compiles and hot-reloads for development
