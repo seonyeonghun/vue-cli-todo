@@ -24,5 +24,10 @@ export default {
 </script>
 
 <style>
-
+.arti-wrap {
+    max-width: 74.375rem;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
 </style>
