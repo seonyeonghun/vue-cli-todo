@@ -17,15 +17,15 @@ export default {
         }
     },
     methods: {
-        addTodo() {
-            if(this.todoInput != "") {
-                var value = this.todoInput && this.todoInput.trim()
-                localStorage.setItem(value, value);
-                this.clearInput();
-            }
-        },
         clearInput() {
             this.todoInput = '';
+        },
+        addTodo() {
+            if (this.todoInput != ""){
+                var value = this.todoInput && this.todoInput.trim();
+                this.$emit('addTodo', value);
+                this.clearInput();
+            }
         }
     }
 }
