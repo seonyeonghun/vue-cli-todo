@@ -1,15 +1,14 @@
 # todo-app
+vue-cli TODO-APP 제작
 
-## Project setup
+## 준비물
 ```
 1. node.js LTS install
-2. vue install -g @vue/cli
-3. vue create todo-app
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+2. visual studio code
+3. vue install -g @vue/cli
+4. vue create todo-app
+5. cd todo-app
+6. npm run serve | compile & hot-reload
 ```
 
 ### Compiles and minifies for production
